@@ -1,0 +1,9 @@
+Esse projeto contém arquivos de configuração do meu bash
+
+Para usá-lo:
+
+1. No terminal, vá até seu diretório home (~)
+2. Faça um git clone
+   git clone git://github.com/leonardom/config.git config
+3. Crie um link para o arquivo bashrc
+   ln -s ~/config/bashrc ~/.bash_login
