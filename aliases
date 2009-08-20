@@ -1,11 +1,16 @@
 # Command Enhancements
- 
+
 # Utility
 alias reload='source ~/config/aliases'
 alias ea='mate -w ~/config/aliases && reload' # Edit aliases
 alias ea='mate -w ~/config/bash && reload' # Edit config
 alias ee='mate -w ~/config/env && reload' # Edit env
- 
+
+# Bash
+alias ll='ls -l'
+alias la='ls -la'
+alias cl='clear'
+
 # Quicker cd
 alias cg='cd /Library/Ruby/Gems/1.8/gems/'
  
