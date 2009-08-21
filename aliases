@@ -77,7 +77,9 @@ alias tl='tail -f log/*.log'
 alias aa='autotest'
 alias aaf='autotest -f' # Don't run all at start
 alias aas="./script/autospec"
- 
+
+# Apache
+alias ar='sudo apachectl restart'
 function markdown() {
 /Applications/TextMate.app/Contents/SharedSupport/Support/bin/Markdown.pl $1 > $1.html
 }

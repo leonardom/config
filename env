@@ -1,3 +1,4 @@
 #export EDITOR="mate -w"
 export EDITOR="mvim -f"
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+export FLEX_HOME="~/Development/flex_sdk_3"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$FLEX_HOME/bin:$PATH"
