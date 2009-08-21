@@ -80,20 +80,12 @@ alias aas="./script/autospec"
 
 # Apache
 alias ar='sudo apachectl restart'
+
 function markdown() {
 /Applications/TextMate.app/Contents/SharedSupport/Support/bin/Markdown.pl $1 > $1.html
 }
  
-function wk {
-  cd ~/Works/$1
-}
-
 function pj {
   cd ~/Projects/$1
-}
- 
-function parse_git_branch {
-  ref=$(git-symbolic-ref HEAD 2> /dev/null) || return
-  echo "("${ref#refs/heads/}")"
 }
 
