@@ -7,6 +7,7 @@ alias ea='mate -w ~/config/bash && reload' # Edit config
 alias ee='mate -w ~/config/env && reload' # Edit env
 
 # Bash
+alias ls='ls -G'
 alias ll='ls -l'
 alias la='ls -la'
 alias cl='clear'

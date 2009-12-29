@@ -1,4 +1,10 @@
-#export EDITOR="mate -w"
-export EDITOR="mvim -f"
+export TERM=xterm-color
+export RSPEC=true
+#export EDITOR="mvim -f"
+export EDITOR="mate -w"
+export TM_RSPEC_HOME=/Library/Ruby/Gems/1.8/gems/rspec-1.2.9
+export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home"
+export ANT_HOME="/~Development/apache-ant-1.7.1"
 export FLEX_HOME="~/Development/flex_sdk_3"
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$FLEX_HOME/bin:$PATH"
+export SCALA_HOME="~/Development/scala-2.7.5.final"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$ANT_HOME/bin:$FLEX_HOME/bin:$SCALA_HOME/bin:$PATH"
