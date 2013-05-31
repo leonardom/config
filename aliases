@@ -3,7 +3,7 @@
 # Utility
 alias reload='source ~/config/aliases'
 alias ea='mate -w ~/config/aliases && reload' # Edit aliases
-alias ea='mate -w ~/config/bash && reload' # Edit config
+alias eb='mate -w ~/config/bash && reload' # Edit config
 alias ee='mate -w ~/config/env && reload' # Edit env
 
 # Bash
@@ -11,10 +11,8 @@ alias ls='ls -G'
 alias ll='ls -l'
 alias la='ls -la'
 alias cl='clear'
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
 
-# Quicker cd
-alias cg='cd /Library/Ruby/Gems/1.8/gems/'
- 
 function zipr() {
   zip -r $1.zip $1
 }
@@ -68,11 +66,12 @@ alias rk="rake"
  
 # Rails
 alias rp='touch tmp/restart.txt'
-alias sc='./script/console'
-alias sg='./script/generate'
-alias sp='./script/plugin'
-alias ss='./script/server'
+alias rc='rails console'
+alias rg='rails generate'
+alias rp='rails plugin'
+alias rs='rails server'
 alias tl='tail -f log/*.log'
+alias be='bundle exec'
  
 # TDD / BDD
 alias aa='autotest'
@@ -90,3 +89,5 @@ function pj {
   cd ~/Projects/$1
 }
 
+#Zend Framework
+alias zf=/usr/local/ZendFramework/bin/zf.sh
